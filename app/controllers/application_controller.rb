@@ -33,6 +33,7 @@ class ApplicationController < Sinatra::Base
     @recipes.name = params[:name]
     @recipes.ingredients = params[:ingredients]
     @recipes.cook_time = params[:cook_time]
+    @recipes.save 
   end 
   
   
