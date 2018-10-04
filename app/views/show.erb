@@ -2,4 +2,6 @@ Name: <%= @recipes.name %>
 Ingredients: <%= @recipes.ingredients %>
 Cook Time: <%= @recipes.cook_time %>
 
-<form method="post" action=""
+<form method="post" action="/recipes/<%= @recipes.id %>/delete">
+  
+</form>
