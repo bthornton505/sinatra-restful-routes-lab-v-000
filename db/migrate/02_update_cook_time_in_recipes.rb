@@ -1,5 +1,5 @@
 class UpdateCookTimeInRecipes < ActiveRecord::Migration
-  def change
+  def up 
     
   end 
 end 
